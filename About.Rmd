@@ -1,0 +1,24 @@
+Binomial Operating Characteristic Curves
+========================================================
+
+The Binomial Distribution
+-------------------------
+
+The binomial distribution describes the outcome of an experiment where the outocme can take one of two possible values. 
+The two possible values for the outcome are things like pass/fail, hit/miss, success/fail, and so forth.  
+
+For an experiment with `n` independent trials where the probability of success is `p`, the probability of having `x` 
+successful outocome in the experiment is given by the probability mass function:  
+
+
+$$
+\begin{aligned}
+f(x) & = {n \choose x} \, p^x \, (1-p)^{n-x} \,\, \mbox{   for  } x=0, 1, 2, ..., n\\
+\mbox{ where }{n \choose x} & = \frac{n!}{x!(n-x)!} \mbox{ is the binomial coefficient}
+\end{aligned}
+$$
+
+The binomial coefficient represents the number of different ways one can have `x` successes in `n` trials.  
+
+This app calculates the probability of success given a number of shots and a number of failures as a function of 
+the proportion defective.   
